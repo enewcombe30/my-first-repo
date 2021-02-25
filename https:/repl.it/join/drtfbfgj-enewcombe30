@@ -1,0 +1,110 @@
+. <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <header>
+        <h1>How to make tea</h1>
+        <img src="https://i.imgur.com/oSVKMED.jpg">
+        <p>At the very least, tea is a flavourful way of getting enough fluid into your body each day.
+        On top of that, studies have shown teas can help protect your teeth and your heart</p>
+    </header>
+    <section>
+        <h2>ingredients</h2>
+        <ul>
+            <li>Tea bag</li>
+            <li>Water</li>
+            <li>Milk - Dairy/Plant-based (Optional)</li>
+            <li>Sugar/Honey (Optional)</li>
+        </ul>
+        <form>
+        <table width+"200" border="0">
+          <tr>
+            <td>Name:</td>
+            <td><input type="text"  size="50" maxlength="50" value="Enter Name" name="name"><br /></td>
+          </tr>
+          <tr>
+            <td>Email Address:</td>
+            <td><input type="text" value="Enter Email" size="50" name="email"><br /></td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td><input type="password" value="password" name="password" size="20"><br /></td>
+          </tr>
+          <tr>
+            <td>Comments:</td>
+            <td><textarea name="Comments" value="Enter comments here (max 500 words)" cols="50"  rows="10"></textarea><br /></td>
+          </tr>
+          <tr>
+            <td height="39">I'm interested in:</td>
+            <td><p>
+              <label>
+                <input type="checkbox" name="interests" value="checkbox" id="interests_0">
+                TV Shows</label>
+              <label>
+                <input type="checkbox" name="interests" value="checkbox" id="interests_1">
+                Movies</label>
+              <label>
+                <input type="checkbox" name="interests" value="checkbox" id="interests_2">
+                Sports</label>
+              <label>
+                <input type="checkbox" name="interests" value="checkbox" id="interests_3">
+                News</label>
+              <br />
+            </p></td>
+          </tr>
+          <tr>
+            <td height="39">Subscribe to news letter:</td>
+          <td>
+            <p>
+              <label>
+                <input type="radio" name="subscribe" value="radio" id="subscribe_0">
+                Yes</label>
+              <label>  
+              <input type="radio" name="subscribe" value="radio" id="subscribe_1">
+                No</label>
+          </tr>
+          <tr>
+            <td><input type="submit" value="click to submit" name="submit"></td>
+          </tr>
+          </table>
+
+           
+        </form>
+    </section>
+    <section>
+        <h2>preparation</h2>
+        <ol>
+            <li>
+                Run the tap a little so the water's nicely aerated, and only boil it once to keep the oxygen level up. Oxygen in water helps flavour!
+            </li>
+            <li>
+                Pop a tea bag into your mug (<em>always</em> a big mug)
+            </li>
+            <li>
+                Pour the hot water over the tea bag and stir briefly.
+            </li>
+            <li>
+                Tea needs time to unlock all its flavour, so give it 3-4 minutes to do its thing. This is a perfect time to grab a sneaky cookie or daydream about vacations.
+            </li>
+            <li>
+                Before removing the tea bag, gently squish it with a spoon against the side of the mug. Not too much or you'll make it bitter.
+            </li>
+            <li>
+                If you want, throw in some milk or sugar or honey or nothing else at all.
+            </li>
+            <li>
+                Enjoy!
+            </li>
+        </ol>
+    </section>
+    <footer>
+        <p>Copyright Me 2018</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
